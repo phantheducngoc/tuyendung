@@ -1,0 +1,87 @@
+.modal-dialog{
+    max-width: 1000px;
+}
+
+.job-type{
+    height: 50px;
+}
+
+.job-type-name{
+    margin-top: -8px;
+}
+
+.left-side-box{
+	position: relative;	
+}
+.nganhNghe{
+	position: absolute;
+    left: 450px;
+    top: 0;
+}
+.nganhNghe .job-name{
+    padding-left: 30px;
+    width : 475px;
+}
+
+.job-type{
+	position: relative;
+}
+.nganhNghe{
+	display:none;
+}
+
+.job-type:hover> .nganhNghe{
+	display:block;
+	color: red;
+}
+.province{
+    height: 50px;
+}
+
+.province-name{
+    margin-top: -8px;
+}
+
+.city-name{
+    padding-left: 30px;
+}
+
+.employee-number{
+    width: 120px;
+}
+.employee-label{
+    margin-right: 50px;
+}
+
+.container form .search-conditions .search-form{
+    height: 55px;
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    border-top: 0;
+} 
+
+.container form .search-conditions .search-form:first-child{
+    border-top: 1px solid #ccc;
+    border-radius: 10px 10px 0 0;
+}
+
+.container form .search-conditions .search-form:last-child{
+    border-radius: 0 0 10px 10px;
+}
+
+.container form .btnSearch-holder{
+    text-align: center; 
+}
+.container form .btnSearch{
+    border-color: #0091ce;
+    box-shadow: 0 1px 0 rgba(255,255,255,.35) inset;
+    color: #fff;
+    min-height: 45px;
+    min-width: 257px;
+    background: linear-gradient(to bottom,hsl(239, 99%, 63%),#0091ce) repeat scroll 0 0;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+

@@ -1,0 +1,4 @@
+com\entity\TinTuyenDung.class
+com\daoimpl\TinTuyenDungImpl.class
+com\entity\TaiKhoan.class
+com\entity\NhaTuyenDung.class

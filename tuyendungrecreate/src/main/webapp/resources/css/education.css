@@ -1,0 +1,75 @@
+.container .title{
+    background-color: #918985;
+    border-radius:3px 3px 3px 3px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.container .title .title-name{
+    color:white;
+    margin-top: 3px;
+    font-weight: 700;
+}
+
+.container .btn-zone{
+    text-align: center;
+}
+.container .btn-zone .btn-save{
+    border-color: #0091ce;
+    box-shadow: 0 1px 0 rgba(255,255,255,.35) inset;
+    color: #fff;
+    min-height: 40px;
+    min-width: 100px;
+    background: linear-gradient(to bottom,hsl(239, 99%, 63%),#0091ce) repeat scroll 0 0;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.container .form-group .col-10{
+    margin: auto;
+}
+
+.main-table{
+    border: 1px solid #918985;
+    display: flex;
+}
+
+.main-table .child-column1{
+    display: flex;
+}
+
+.main-table .child-column1 .child-child-column{
+    min-width: 147px;
+}
+
+.container .main-table{
+    padding-top: 20px;
+}
+
+
+.container .main-table .child-column2{
+    margin: auto;
+}
+
+.container .main-table .child-column2 div{
+    margin-bottom: 23px;
+}
+
+.container .main-table .child-column2 input[type="text"]{
+    width:50px;
+}
+
+.container .main-table .child-column2 input[type="checkbox"]{
+    margin-bottom:4px;
+    margin-left:20px;
+    margin-right:4px;
+}
+
+.container .main-table .child-column2 span:nth-last-child(4){
+    margin-right: 30px;
+}
+
+.container .main-table .child-child-column div{
+    margin-bottom: 23px;
+}

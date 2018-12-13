@@ -1,0 +1,34 @@
+.condition-box{
+    border-collapse:collapse;
+    display: table;
+}
+.col-md-10{
+    display: flex;
+    height: auto;
+    display:table-row;
+}
+.col-md-10 .col-md-5{
+    border: 1px solid #cccccc;
+    min-height: 50px;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: table-cell;
+
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.btn-container .btn-save{
+    border-color: #0091ce;
+    box-shadow: 0 1px 0 rgba(255,255,255,.35) inset;
+    color: #fff;
+    min-height: 40px;
+    min-width: 100px;
+    background: linear-gradient(to bottom,hsl(239, 99%, 63%),#0091ce) repeat scroll 0 0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+

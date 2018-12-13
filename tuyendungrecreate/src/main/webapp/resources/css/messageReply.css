@@ -1,0 +1,89 @@
+.container .row .main-container{
+    border: 1px solid #9E210B;
+    padding: 10px 10px 10px 10px;
+    width: 894px;
+}
+.container .row table,tr,th,td{
+    border: 1px solid #cccccc;
+}
+
+.container .row table th{
+    text-align: center;
+    background-color: #f7d7d7;
+}
+
+.container .row table .column1{
+    width: 300px;
+    padding-left: 5px;
+    
+}
+
+.container .row table .column2{
+    width: 400px;
+    padding-left: 5px;
+
+}
+
+.container .row table .column3{
+    width: 120px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container .row table .column4{
+    width: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3px 3px 3px 3px;
+    line-height: 92%;
+}
+
+.mail-box .btn-container{
+    text-align: right;
+}
+
+.mail-box .btn-container .btn-delete{
+    margin-top: 10px;
+}
+
+.control-bar ul{
+    list-style-type: none;
+    margin-bottom: -6px;
+
+}
+
+.control-bar ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.control-bar ul li .span-btn2{
+    width: 80px;
+    float: left;
+    background: #9E210B;
+    border: 3px solid #9E210B;
+    border-radius: 5px 5px 0 0;
+}
+
+.control-bar ul li .span-btn1{
+    width: 80px;
+    float: left;
+    background: #cccccc;
+    border: 3px solid #cccccc;
+    border-radius: 5px 5px 0 0;
+}
+
+.control-bar .control-btn1{
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.control-bar .control-btn2{
+    background: #9E210B;
+    border: 2px solid #9E210B;
+    border-radius: 5px 5px 0 0;
+    text-decoration: underline;
+    color:white;
+}

@@ -1,0 +1,22 @@
+.container .checklist{
+    width: 60%;
+}
+
+.container .checklist .exp_number_list tr td{
+    width: 100px;
+    text-align: center;
+}
+
+
+.checklist tr th{
+    width: 265px;
+}
+
+.checklist tr td .job_list tr td{
+    width: 104px;
+    text-align: center;
+} 
+
+.left_dark, .right_dark{
+    background-color: #cccccc;
+}

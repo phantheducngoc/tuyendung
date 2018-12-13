@@ -1,0 +1,283 @@
+/* ----------------------------------------------------------------------------------*/
+/*  BASIS SETUP */
+/* ----------------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: #555;
+    font-family: 'Arial' , sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    background: #eee;
+}
+.row{
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 80px 0px;
+}
+
+header{
+margin: auto;
+}
+.logo{
+    margin-left: 70px;
+    height: auto;
+    width: 175px;
+    float: left;
+}
+#search-input{
+    font-size: 70%;
+    margin: 2em 0 2em 1em;
+    padding: 0.5em;
+    width: 25em;
+    border: #9d9c9c solid 1px;
+    border-radius: 15px;
+    outline: none;
+}
+.search-btn{
+    background: #71a3ff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 70%
+}
+
+.search-btn:hover{
+    background:#357cff;
+}
+.user{
+    float: right;
+    font-size: 80%;
+    margin: 50px 100px 0 0;
+}
+.user a{
+    text-decoration: none;}
+.menu{
+    text-align: center;
+    width: 100%;
+    background: #71a3ff;
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.menu li{
+    display: inline-block;
+    margin: 20px;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 75%;
+    font-weight: 300;
+}
+.menu li a:hover{
+    color: #ffb9ad;
+}
+
+.job-detail, .chitiet-ss{
+    padding: 0px 0 20px 0;
+}
+.detail-item, .chitietcv{
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 2px #cacaca;
+}
+.detail-item h3{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.detail-item h4{
+    font-weight: 300;
+    font-size: 90%;
+    color: #777;
+    margin-bottom: 15px;
+}
+.info-job{
+    float: left;
+}
+.info-job .btn{
+    padding: 12px;
+    border: solid 1px #ddd;
+    font-size: 80%;
+    color: #555;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.info-job i{
+    margin-right: 10px;
+    font-size: 120%;
+}
+.info-job .btn a{
+    margin-right: 5px;
+}
+
+.info-job p{
+    clear: left;
+    font-size: 65%;
+    padding: 5px 0 0 0;
+}
+
+.detail-item h5{
+    font-weight: 400;
+    font-size: 80%;
+    float: left;
+    padding-top:5px;
+}
+.detail-item span{
+    font-weight: 400;
+    font-size: 80%;
+    padding-top:5px;
+    color: tomato
+}
+.nop-ho-so a{
+    float: left;
+    background: #ff846e;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    margin: 30px 0 20px 90px;
+}
+.nop-ho-so a:hover{
+    background: tomato;
+}
+ .info{
+     margin: 20px 0;
+ }
+ .info:before{
+    display: block;
+    height: 1px;
+    background-color: #e6e6e6;
+    width: 700px;
+    content: " ";
+    margin: 20px auto;
+}
+.info li{
+    font-size: 75%;
+    list-style: none;
+    margin: 5px
+}
+.info-left{
+    float: left;
+    margin-right: 10px;
+    width: 50%;
+}
+.info-right{
+    float: left;
+}
+.chitietcv h4{
+    font-size: 90%;
+    color: #836fff;
+    margin-bottom: 10px;
+}
+.chitietcv h5{
+    font-size: 75%;
+    margin-bottom: 10px;
+}
+.chitietcv p{
+    font-size: 75%;
+    font-weight: 300;
+    margin: 0 50px;
+}
+.chitietcv p::after{
+    display: block;
+    height: 1px;
+    background-color: #e6e6e6;
+    width: 700px;
+    content: " ";
+    margin: 20px auto;
+}
+.last{
+    font-size: 75%;
+    padding: 10px;
+    background: #ebf3ff;
+    margin: auto;
+    text-align: center;
+
+}
+
+/* ----------------------------------------------------------------------------------*/
+/*  FOOTER  */
+/* ----------------------------------------------------------------------------------*/
+footer{
+    background: #71a3ff;
+    padding: 40px;
+    font-size: 80%;
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-icons{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-icons li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li :last-child,
+.social-icons li :last-child{
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-icons li a:link,
+.social-icons li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #3f3f3f;
+    transition: color 0.2s;
+    font-size: 90%;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #ddd;
+}
+
+.social-icons li a:link,
+.social-icons li a:visited{
+    font-size: 160%;
+}
+
+.ion-logo-facebook:hover{
+    color: #3b5998;
+}
+.ion-logo-twitter:hover{
+    color: #00aced;
+}
+.ion-logo-googleplus:hover{
+    color: #dd4b39;
+}
+.ion-logo-instagram:hover{
+    color: #517fa4;
+}
+
+footer p{
+    color: #3f3f3f;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header{
+	background: #fff;
+	display: flex;
+}

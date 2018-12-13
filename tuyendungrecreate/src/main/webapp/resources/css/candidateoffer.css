@@ -1,0 +1,62 @@
+.container .row .col-md-10{
+    display: flex;
+    border: 1px solid #cccccc;
+    height: 120px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.container .row .col-md-10 .col-md-1{
+    text-align: center;
+    align-self: center;
+    border-right: #cccccc;
+}
+
+.container .row .col-md-10 .right-side{
+    text-align: center;
+    padding-top: 0px;
+    align-self: center;
+}
+
+.container .row .col-md-10 .right-side p{
+    min-width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container .row .col-md-10 .right-side .concern{
+    width: 70px;
+    height: 30px;
+    margin-top: 5px;
+    background-image: linear-gradient(0deg,#b1a9a9 0,rgb(216, 204, 204));
+    border-radius: 5px;
+}
+
+.container .row .col-md-10 .right-side .offer{
+    width: 120px;
+    height: 30px;
+    background-image: linear-gradient(0deg,#de3232,#ff5242),linear-gradient(#e23634,#e23634);
+    border-radius: 5px;
+}
+
+.container .row .col-md-10 .center-side{
+    flex-direction: column;
+}
+
+.container .row .col-md-10 .header{
+    margin-top: 10px;
+}
+
+.container .row .col-md-10 .center-side div{
+    margin-right: 10px;
+}
+
+.container .row .col-md-10 .main-container{
+    display: flex;
+    margin-top: 10px;
+}
+
+.container .row .col-md-10 .center-side header{
+    font-weight:600;
+    margin-bottom: 20px;
+}
